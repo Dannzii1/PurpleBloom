@@ -6,7 +6,7 @@
                 src="@/assets/img/smile.png"
                 alt="Smiling Logo"
               >
-              <span class="Largepurple">Purple</span><span class="Littlegreen">Bloom</span>
+              <span class="Largepurple">Purple</span><span class="Littlegreen">Spring</span>
             </b-navbar-item>
           </template>
           <template #end>
@@ -20,7 +20,7 @@
               Contact
             </b-navbar-item>
             <b-navbar-item>
-              <a to="https://github.com/Dannzii1" target="_blank">
+              <a href="https://github.com/Dannzii1" target="_blank">
                 <img
                 src="@/assets/img/github.png"
                 alt="github Logo"
@@ -40,13 +40,13 @@ export default {
 
 <style>
 .Largepurple{
-  color: #a324eb;
+  color:  var(--purple);
   font-size: 1.6rem;
   margin-left: 10px;
 }
 
 .Littlegreen{
-  color: #13e5d0;
+  color: var(--light-green);
 }
 
 .textcolor{
