@@ -62,6 +62,17 @@ export default {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     baseURL: '/',
   },
+  
+  googleFonts: {
+    families: {
+      Poppins: [300, 400, 500, 700],
+      Lato: [100, 300, 400],
+    },
+    display: 'swap',
+    text: 'PurpleSpring',
+    prefetch: true,
+    preload: true,
+  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
